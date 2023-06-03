@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "291254308844",
+    "project_id": "marrakech-tour",
+    "storage_bucket": "marrakech-tour.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291254308844:android:d88b761b3d92e7dacbfac9",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291254308844-8nfvn6opcbr9p36lo697ibh1pekvcrj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr5RH3TTJnrYRCkQI5ZR2QoSCs7B_IPio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291254308844-8nfvn6opcbr9p36lo697ibh1pekvcrj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291254308844:android:858a670c49609824cbfac9",
+        "android_client_info": {
+          "package_name": "com.lst.marrakechassistance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291254308844-8nfvn6opcbr9p36lo697ibh1pekvcrj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr5RH3TTJnrYRCkQI5ZR2QoSCs7B_IPio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291254308844-8nfvn6opcbr9p36lo697ibh1pekvcrj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

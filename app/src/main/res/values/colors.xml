@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5500</color>
+    <color name="colorPrimaryDark">#FF5500</color>
+    <color name="colorAccent">#C6CFD5</color>
+    <color name="white">#ffffff</color>
+    <color name="signUpWith">#FFC6CFD5</color>
+    <color name="already">#878A8B</color>
+</resources>

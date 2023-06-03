@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Marrakech-guide</string>
+    <string name="new_user_register_now">New User ? Register Now</string>
+    <string name="top_icon"> ICON</string>
+    <string name="email"> Email</string>
+    <string name="password"> Password</string>
+    <string name="login"> LOGIN </string>
+    <string name="forgot_password">FORGOT PASSWORD</string>
+    <string name="or">OR</string>
+    <string name="google_icon"> google_icon</string>
+    <string name="facebook_icon">facebook_icon</string>
+    <string name="already">Already Have an Account?</string>
+
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="registre">SIGN UP</string>
+    <string name="signUpWith">OR SIGN UP WITH</string>
+    <string name="create">CREATE ACCOUNT</string>
+
+
+    <string name="getStarted"> Get Started</string>
+    <string name="welcome">Welcome To </string>
+    <string name="speak"> Marrakech Speech</string>
+    <string name="horaire">
+        Ouvert:  12:00 AM
+        après-midi : 3:00 => 7:00 PM
+    </string>
+    <string name="title_str">Let\'s plan your next vacation !</string>
+    <string name="marrakech_speak">Marrakech Speak</string>
+    <string name="searching_for">Searching for...</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="transport">Transport</string>
+    <string name="hebergements">Hebergements</string>
+    <string name="activity">Activity</string>
+    <string name="popular">Popular</string>
+    <string name="see_all">See All</string>
+    <string name="new_str">new</string>
+    <string name="nearest_to_you">Nearest To You</string>
+</resources>
