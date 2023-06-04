@@ -20,6 +20,9 @@ android {
 
         python {
             version "3.11"
+            pip {
+                install "pandas"
+            }
         }
 
         ndk {
