@@ -95,7 +95,36 @@
         tools:ignore="MissingConstraints,TextContrastCheck,VisualLintTextFieldSize"
         android:importantForAutofill="no" />
 
-            <GridLayout
+    <RelativeLayout
+        android:id="@+id/kech_bg"
+        android:layout_width="346dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_marrakech"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:orientation="vertical"
+        android:paddingHorizontal="24dp"
+        android:paddingTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shapeLayout"
+        tools:ignore="TextSizeCheck">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="@string/discover_the_charm_of_marrakech"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <GridLayout
                 android:id="@+id/gridLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -106,9 +135,10 @@
                 app:flow_horizontalGap="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/shapeLayout">
+                app:layout_constraintTop_toBottomOf="@+id/kech_bg">
 
                 <LinearLayout
+                    android:id="@+id/FragHotel"
                     android:layout_width="165dp"
                     android:layout_height="72dp"
                     android:layout_margin="8dp"
@@ -120,7 +150,6 @@
                     tools:layout_editor_absoluteY="180dp">
 
                     <TextView
-                        android:id="@+id/FragHotel"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:fontFamily="@font/poppins_bold"
@@ -132,6 +161,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/FragRest"
                     android:layout_width="165dp"
                     android:layout_height="72dp"
                     android:layout_margin="8dp"
@@ -143,7 +173,6 @@
                     tools:layout_editor_absoluteY="180dp">
 
                     <TextView
-                        android:id="@+id/FragRest"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:fontFamily="@font/poppins_bold"
@@ -155,6 +184,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/FragTransport"
                     android:layout_width="165dp"
                     android:layout_height="72dp"
                     android:layout_margin="8dp"
@@ -166,7 +196,6 @@
                     tools:layout_editor_absoluteY="180dp">
 
                     <TextView
-                        android:id="@+id/textTransport"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:fontFamily="@font/poppins_bold"
@@ -178,6 +207,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/FragMV"
                     android:layout_width="165dp"
                     android:layout_height="72dp"
                     android:layout_margin="8dp"
@@ -189,7 +219,6 @@
                     tools:layout_editor_absoluteY="180dp">
 
                     <TextView
-                        android:id="@+id/textActivity"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:fontFamily="@font/poppins_bold"
@@ -200,6 +229,63 @@
                         android:textStyle="bold" />
                 </LinearLayout>
             </GridLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:elevation="4dp"
+        android:id="@+id/wheatherCard"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        android:background="@drawable/round_img">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/weatherTitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Today's Weather"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <ImageView
+                android:id="@+id/weatherIconImageView"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/icon_default"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/weatherDescriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Partly Cloudy"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/weatherTemperatureTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25°C"
+                android:textSize="24sp"
+                android:fontFamily="@font/poppins_regular"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
             <LinearLayout
                 android:id="@+id/linearLayout3"
@@ -209,7 +295,8 @@
                 android:orientation="horizontal"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/gridLayout">
+                app:layout_constraintTop_toBottomOf="@+id/wheatherCard"
+               >
 
                 <TextView
                     android:id="@+id/textNear"

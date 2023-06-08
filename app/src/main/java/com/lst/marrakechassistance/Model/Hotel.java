@@ -11,7 +11,39 @@ public class Hotel implements Serializable {
     private int price ;
     private String pic;
     private Boolean wifi;
+    private double latitude;
+    private double longitude;
+    private float distance;
 
+    public void setDistance(float distance) {
+        this.distance = distance;
+    }
+
+    public float getDistance() {
+        return distance;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public Hotel(String title, double latitude, double longitude) {
+        this.title = title;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
 
     public Hotel(String title, String address, String description, int bed, int path, int price, String pic, Boolean wifi) {
         this.title = title;
