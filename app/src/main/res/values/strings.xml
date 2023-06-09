@@ -37,4 +37,5 @@
     <string name="new_str">new</string>
     <string name="nearest_to_you">Nearest To You</string>
     <string name="discover_the_charm_of_marrakech">Discover the charm of Marrakech</string>
+    <string name="no_internet_connection">No internet connection</string>
 </resources>

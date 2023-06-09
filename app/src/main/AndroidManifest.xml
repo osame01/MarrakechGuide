@@ -19,6 +19,12 @@
         android:theme="@style/Theme.MarrakechAssistance"
         tools:targetApi="31">
         <activity
+            android:name=".Activity.RestaurantDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.HotelDeatilsActivity"
+            android:exported="false" />
+        <activity
             android:name=".Activity.SearchActivity"
             android:exported="false" />
         <activity

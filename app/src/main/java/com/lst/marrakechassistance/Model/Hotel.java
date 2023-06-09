@@ -56,6 +56,15 @@ public class Hotel implements Serializable {
         this.wifi = wifi;
     }
 
+    public Hotel(String title, String address, int price, String pic, double latitude, double longitude) {
+        this.title = title;
+        this.address = address;
+        this.price = price;
+        this.pic = pic;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
     public String getTitle() {
         return title;
     }

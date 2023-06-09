@@ -124,6 +124,8 @@
 
     </RelativeLayout>
 
+    <!-- Navigation Grid Layout -->
+
     <GridLayout
                 android:id="@+id/gridLayout"
                 android:layout_width="wrap_content"
@@ -229,6 +231,8 @@
                         android:textStyle="bold" />
                 </LinearLayout>
             </GridLayout>
+
+    <!-- Whether Section For displaying the wheather Options-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -256,8 +260,8 @@
 
             <ImageView
                 android:id="@+id/weatherIconImageView"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
                 android:src="@drawable/icon_default"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="8dp" />

@@ -6,4 +6,5 @@
     <color name="white">#ffffff</color>
     <color name="signUpWith">#FFC6CFD5</color>
     <color name="already">#878A8B</color>
+    <color name="placeholder_bg">#dddddd</color>
 </resources>

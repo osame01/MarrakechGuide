@@ -4,6 +4,7 @@
     android:layout_width="250dp"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="8dp"
+    android:padding="8dp"
     app:cardCornerRadius="10dp"
     android:layout_height="wrap_content"
     tools:context=".Fragment.HomeFragment">
@@ -15,7 +16,8 @@
         <ImageView
             android:id="@+id/pic"
             android:layout_width="250dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:cropToPadding="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +48,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/constraintLayout2"
             android:layout_width="250dp"
-            android:layout_height="70dp"
+            android:layout_height="wrap_content"
             android:background="@color/white"
             app:layout_constraintBottom_toBottomOf="@+id/pic"
             app:layout_constraintEnd_toEndOf="parent"
@@ -54,8 +56,8 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="16dp"
+                android:layout_height="24dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 app:layout_constraintStart_toStartOf="parent"
@@ -85,5 +87,6 @@
                 app:layout_constraintStart_toStartOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/addressText" />
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
